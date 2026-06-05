@@ -19,8 +19,10 @@ personal copy of the repository under your GitHub account.
 
 2. **Clone your fork**. Copy your forked repository to your local machine:
 
-
     `git clone https://github.com/YOUR-USERNAME/2026-RLAB-Practical-Exercises.git`
+
+    View [GitHub documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) 
+    for more information on cloning
 
 3. **Add to your folder**. All weekly submissions should be saved in the `code/`
 directory within the folder named for you. A template file is provided to help
