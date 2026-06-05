@@ -1,0 +1,39 @@
+---
+title: "Practical Exercise Template"
+subtitle: "Adjust the YAML each week when doing a new exercise"
+author: Wasayef Bsharat
+date: 2026-06-24
+image: "https://github.com/bhelsel/2026-RLAB-Practical-Exercises/raw/main/images/rlab-placeholder.png"
+execute: 
+  echo: true
+  eval: true
+  message: false
+  warning: false
+---
+
+**Assignment**. Add assignment details here. Update this section with the
+current week's tasks or instructions, and any additional resources to complete
+the assignment.
+
+## Introduction to dplyr
+
+```{r}
+
+library(dplyr)
+
+starwars |>
+  mutate(name, bmi = mass / ((height / 100)^2)) |>
+  select(name:mass, bmi)
+
+```
+
+## Introduction to ggplot2
+
+```{r}
+
+library(ggplot2)
+
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point()
+
+```

@@ -1,0 +1,18 @@
+---
+title: "Rashelle Hoffman"
+listing:
+  contents: code
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  image-placeholder: "https://github.com/bhelsel/2026-RLAB-Practical-Exercises/raw/main/images/rlab-placeholder.png"
+  image-height: 200px
+page-layout: full
+title-block-banner: true
+---
+
+<div class="profile">
+  <img src="https://dms.creighton.edu/sites/default/files/faculty-images/rashelle-hoffman.webp">
+</div>

@@ -5,7 +5,7 @@ author: "Brian Helsel, PhD"
 date: 2026-06-24
 image: "https://github.com/bhelsel/2026-RLAB-Practical-Exercises/raw/main/images/rlab-placeholder.png"
 execute: 
-  echo: false
+  echo: true
   eval: true
   message: false
   warning: false
