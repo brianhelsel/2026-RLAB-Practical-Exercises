@@ -1,0 +1,17 @@
+{
+  "hash": "7fdf10097271b49f264e6446f524e157",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Practical Exercise Template\"\nsubtitle: \"Adjust the YAML each week when doing a new exercise\"\nauthor: Elyse Vetter\ndate: 2026-06-24\nimage: \"https://github.com/bhelsel/2026-RLAB-Practical-Exercises/raw/main/images/rlab-placeholder.png\"\nexecute: \n  echo: true\n  eval: true\n  message: false\n  warning: false\n---\n\n**Assignment**. Add assignment details here. Update this section with the\ncurrent week's tasks or instructions, and any additional resources to complete\nthe assignment.\n\n## Introduction to dplyr\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(dplyr)\n\nstarwars |>\n  mutate(name, bmi = mass / ((height / 100)^2)) |>\n  select(name:mass, bmi)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 87 × 4\n   name               height  mass   bmi\n   <chr>               <int> <dbl> <dbl>\n 1 Luke Skywalker        172    77  26.0\n 2 C-3PO                 167    75  26.9\n 3 R2-D2                  96    32  34.7\n 4 Darth Vader           202   136  33.3\n 5 Leia Organa           150    49  21.8\n 6 Owen Lars             178   120  37.9\n 7 Beru Whitesun Lars    165    75  27.5\n 8 R5-D4                  97    32  34.0\n 9 Biggs Darklighter     183    84  25.1\n10 Obi-Wan Kenobi        182    77  23.2\n# ℹ 77 more rows\n```\n\n\n:::\n:::\n\n\n## Introduction to ggplot2\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(mpg, aes(displ, hwy, colour = class)) +\n  geom_point()\n```\n\n::: {.cell-output-display}\n![](template_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "template_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
