@@ -125,6 +125,11 @@ the University of Minnesota Twin Cities.
 Ainsley is a Clinical Research Assistant with the Department of Anesthesiology
 at the University of Kansas Medical Center.
 
+### [Elyse Vetter](attendees/ElyseVetter/about.html)
+
+Elyse is a Graduate Student with the Department of Neurology at the University
+of Kansas Medical Center.
+
 ### [Ian Weidling](attendees/IanWeidling/about.html)
 
 Ian is a Postdoctoral Fellow with the Department of Neurology at the University
